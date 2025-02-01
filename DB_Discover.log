@@ -1,0 +1,4 @@
+2025-01-31 09:52:33,476 - INFO - START DB_Discover =============================================
+2025-01-31 09:52:33,476 - INFO - START DB_Discover Start Time = 2025-01-31 09:52:33
+2025-01-31 09:52:33,476 - INFO - DB_Discover Step 0 - Initialize the configuration file parser
+2025-01-31 09:52:33,477 - INFO - Process DB_Discover Step 0 - Initializing and starting Logging Process.
