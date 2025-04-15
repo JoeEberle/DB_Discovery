@@ -1,0 +1,39 @@
+column_number,Column,Description
+1,Table_Name,The name of the table where the column is found.
+2,Column_Name,The name of the column within the table.
+3,Column_Number,The column's position or index within the table schema.
+4,Pandas_Data_Type,The inferred Python (Pandas) data type of the column.
+5,SQL_Data_Type,The SQL data type used in the database schema.
+6,Likely_Primary_Key,Indicates whether the column is likely to be a primary key.
+7,Likely_Foreign_Key,Indicates whether the column is likely to reference another table's key.
+8,Likely_Categorical,Indicates whether the column contains categorical values.
+9,count,The number of non-null entries in the column.
+10,mean,"The average (mean) value of the column, applicable to numeric data."
+11,std,"The standard deviation of the column's values, showing spread around the mean."
+12,min,The minimum value in the column.
+13,25%,The 25th percentile (lower quartile) value of the column.
+14,50%,The 50th percentile (median) value of the column.
+15,75%,The 75th percentile (upper quartile) value of the column.
+16,max,The maximum value in the column.
+17,S_Count,"The total number of values in the column, including non-numeric."
+18,S_Missing_Values,The count of missing (null) values in the column.
+19,S_Unique_Values,The number of unique values in the column.
+20,S_Most_Frequent,The most frequently occurring value in the column.
+21,S_Mean,The mean of the values (same as 'mean' for numeric columns).
+22,S_Standard_Deviation,The standard deviation of the values (same as 'std' for numeric columns).
+23,S_Variance,"The variance of the column values, indicating dispersion."
+24,S_Coefficient_of_Variation,The ratio of the standard deviation to the mean (relative variability).
+25,S_Skewness,The skewness of the column's distribution (asymmetry measure).
+26,S_Kurtosis,The kurtosis of the column's distribution (tailedness).
+27,Q_1_Lower_Quartile,"The value at the first quartile (Q1), marking the lower 25%."
+28,Q_2_Median,"The value at the second quartile (Q2), the median of the data."
+29,Q_3_Upper_Quartile,"The value at the third quartile (Q3), marking the upper 75%."
+30,Q_4_Top_Quartile_Spread,The spread between the upper quartile and maximum values.
+31,P_10_Percentile,The value below which 10% of the data fall.
+32,P_90_Percentile,The value below which 90% of the data fall.
+33,S_Interquartile_Range,"The interquartile range, calculated as Q3 - Q1."
+34,S_Range,The range between the maximum and minimum values.
+35,S_Minimum_Value,The minimum observed value in the column.
+36,S_Maximum_Value,The maximum observed value in the column.
+37,Inferred_Column_Description,A machine-generated summary description of the column.
+38,Pandas_Data_Type,The inferred data type of the column by Pandas .
