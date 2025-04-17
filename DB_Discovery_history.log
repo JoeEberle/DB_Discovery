@@ -12,3 +12,31 @@
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
                                                                                                                         
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-04-16 19:58:37,046 - INFO - START DB_Discovery =============================================
+2025-04-16 19:58:37,048 - INFO - START DB_Discovery Start Time = 2025-04-16 19:58:37
+2025-04-16 19:58:37,048 - INFO - DB_Discovery Step 0 - Initialize the configuration file parser
+2025-04-16 19:58:37,049 - INFO - Process DB_Discovery Step 0 - Initializing and starting Logging Process.
+2025-04-16 20:04:35,514 - INFO - PERFORMANCE DB_Discovery The total process duration was:358.47
+2025-04-16 20:04:35,514 - INFO - PERFORMANCE DB_Discovery Stop Time = 2025-04-16 20:04:35
+2025-04-16 20:04:35,514 - INFO - PERFORMANCE DB_Discovery Medium process duration greater than 3 minutes:358.47
+2025-04-16 20:04:35,514 - INFO - PERFORMANCE DB_Discovery Performance optimization is optional
+2025-04-16 20:04:35,515 - INFO - END DB_Discovery =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-04-16 20:04:58,635 - INFO - START DB_Discovery =============================================
+2025-04-16 20:04:58,635 - INFO - START DB_Discovery Start Time = 2025-04-16 20:04:58
+2025-04-16 20:04:58,635 - INFO - DB_Discovery Step 0 - Initialize the configuration file parser
+2025-04-16 20:04:58,636 - INFO - Process DB_Discovery Step 0 - Initializing and starting Logging Process.
+2025-04-16 20:08:15,170 - INFO - PERFORMANCE DB_Discovery The total process duration was:196.54
+2025-04-16 20:08:15,172 - INFO - PERFORMANCE DB_Discovery Stop Time = 2025-04-16 20:08:15
+2025-04-16 20:08:15,172 - INFO - PERFORMANCE DB_Discovery Medium process duration greater than 3 minutes:196.54
+2025-04-16 20:08:15,172 - INFO - PERFORMANCE DB_Discovery Performance optimization is optional
+2025-04-16 20:08:15,172 - INFO - END DB_Discovery =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
