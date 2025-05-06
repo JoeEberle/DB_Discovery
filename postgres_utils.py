@@ -42,35 +42,35 @@ def check_connection(conn):
         print(f"❌ Connection lost: {e}")
         return False
 
-def select_query(conn, sql_query = 'SELECT version();'):
+
+def select_query(conn, sql_query='SELECT version();'):
     """
-    Runs a simple SELECT statement to verify the database connection.
-    Returns True if the query executes successfully.
+    Runs a SELECT statement and handles rollback on failure.
+    Returns True if the query executes successfully, otherwise False.
     """
     try:
         with conn.cursor() as cur:
-            cur.execute(sql_query)  # Fetches PostgreSQL version
+            cur.execute(sql_query)
             result = cur.fetchone()
         print(f"✅ Select result: {result[0]}")
         return True
     except Exception as e:
         print(f"❌ Query execution failed: {e}")
+        conn.rollback()  # ✅ This is critical
         return False
 
-def verify_query(conn, sql_query = 'SELECT version();'):
+
+def verify_query(conn, sql_query='SELECT version();'):
     """
-    Runs a simple SELECT statement to verify the database connection.
-    Returns True if the query executes successfully.
+    Verifies the SQL query. Returns a tuple: (True/False, result or error)
     """
     try:
         with conn.cursor() as cur:
-            cur.execute(sql_query)  # Fetches PostgreSQL version
+            cur.execute(sql_query)
             result = cur.fetchone()
-        print(f"✅ PostgreSQL version: {result[0]}")
-        return True
+        return True, result  # ✅ Must return a tuple
     except Exception as e:
-        print(f"❌ Query execution failed: {e}")
-        return False
+        return False, str(e)  # ✅ Also a tuple
 
 
 def create_pretend_employee_df():
@@ -81,7 +81,7 @@ def create_pretend_employee_df():
         "age": [25, 30, 35],  # INTEGER
         "salary": [55000.50, 62000.75, 72000.00],  # FLOAT
         "is_active": [True, False, True],  # BOOLEAN
-        "created_at": pd.to_datetime(["2024-01-01", "2024-02-01", "2024-03-01"])  # TIMESTAMP
+        "created_at":["2024-01-01", "2024-02-01", "2024-03-01"]
     }
     df = pd.DataFrame(data)
     return df 
@@ -205,6 +205,27 @@ def sql_to_dataframe(query, dbname, user, password, host, port):
     except Exception as e:
         print(f"❌ Error executing query: {e}")
         return pd.DataFrame()  # Return empty DataFrame on error
+
+
+def query_to_dataframe(query, conn):
+    """
+    Executes a given SQL SELECT query using an existing connection and returns the results as a pandas DataFrame.
+
+    Parameters:
+        query (str): The SQL SELECT statement to execute.
+        conn (psycopg.Connection): An active psycopg database connection.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing the query results.
+    """
+    try:
+        df = pd.read_sql(query, conn)
+        print("✅ Query executed successfully. Data retrieved.")
+        return df
+
+    except Exception as e:
+        print(f"❌ Error executing query: {e}")
+        return pd.DataFrame()
 
 def drop_table(conn, table_name):
     """

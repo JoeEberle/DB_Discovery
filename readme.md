@@ -8,22 +8,14 @@
 ![Solution](code.png)
 
     
-## Table of Contents
 
-- [Solution Overview](#solution-overview)
-- [Who will use this ?](#who-can-use)
-- [Advantages of Using](#advantages-of-using)
-- [Return on Investment (ROI)](#return-on-investment-roi)
-- [How it Works](#how-it-works)
-- [Conclusion](#conclusion)
-- [Getting Started](#getting-started)
-- [Solution Features](#solution-features)
-- [Code Features](#code-features)
-- [Deliverables or Figures](#deliverables-or-figures)
-- [Contact Information](#contact-information)
+## DB_Discovery Software Module
 
-
-**DB_Discovery: A Data Science Solution for Reverse Engineering Databases**  
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the database's 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
 
 **DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
 
@@ -38,6 +30,9 @@ content and domain. Its primary purpose is to assist developers, data analysts, 
 in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
 PostgreSQL, Oracle, SQL Server, SQLite).
 
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
 
 
 
@@ -55,11 +50,703 @@ Simplifies database replication or migration snd aids in creating backups of the
 4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
 the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
 Accelerates domain specific insights without requiring subject matter expertise.
-5. Data Sampling
-Description Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
 Value
 Helps users understand the types of data stored.
 Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
 
 
 
@@ -84,6 +771,67 @@ Assists in data quality assessment and potential use case identification.
 
 
  
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the database's 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and large-scale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the databases 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and largescale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
+
+
+## Core Functions of DB_Discovery
+
+1. **Database Connectivity**     Establish connections with various types of relational databases. The function 
+    supports multiple database management systems (DBMS) like PostgreSQL, Oracle, SQL Server, SQLite, and others 
+    by leveraging universal database drivers (e.g., JDBC, ODBC, SQLAlchemy). Ensures compatibility across diverse
+    database systems. Eliminates manual configuration by detecting and adapting to the target databases
+    connection protocols.
+2. **Schema Discovery**  Automatically retrieves the schema metadata, including table names, column names, data types, constraints, primary keys, foreign keys, and indexes.
+Provides a comprehensive overview of the databases structure. Facilitates quick understanding of relationships between tables and their purpose.
+3. **DDL Extraction**  Generates the databases DDL, including CREATE TABLE, CREATE INDEX, and other SQL statements required to recreate the schema in another environment.
+Simplifies database replication or migration snd aids in creating backups of the database structure.
+4. **Domain Analysis** Analyzes the data types, naming conventions, and relationships within the schema to infer 
+the databases domain (e.g., e commerce, healthcare, finance). Provides context to help users align database usage with their organizational needs.
+Accelerates domain specific insights without requiring subject matter expertise.
+5. **Data Sampling** Retrieves a small sample of data from each table to provide a preview of the content while avoiding performance overhead.
+Value
+Helps users understand the types of data stored.
+Assists in data quality assessment and potential use case identification.
+
+<br>
+
+ 
+## DB_Discovery Software Module
+
+The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
+their schema, extract Data Definition Language (DDL), and provide insights into the database's 
+content and domain. Its primary purpose is to assist developers, data analysts, and domain experts 
+in understanding the structure and content of databases, regardless of their underlying technology (e.g., 
+PostgreSQL, Oracle, SQL Server, SQLite).
+
+**DB_Discovery** is an advanced data science solution designed to **reverse engineer** unknown databases and datasets. It automates the discovery process by analyzing database structures, relationships, and key data components to generate an **intelligent schema**. The tool extracts **Data Definition Language (DDL)** scripts and produces **sample queries** for the most critical portions of the database, enabling users to quickly understand its structure and functionality.  
+
+This solution is particularly useful for **legacy systems, undocumented databases, and large-scale data integration projects**, helping data engineers and analysts streamline their workflows by providing **automated insights** into any unknown dataset.
+
 <br>
 
 ![Solution](code.png)
@@ -111,18 +859,17 @@ To get started with the **Db Discovery** solution repository, follow these steps
 - Saves You Time 
 
 
-## Code Features
 
-These features are designed to provide everything you need for **Db Discovery** 
+## ⚙️ Key Features
 
-- **Self Documenting** - Automatically identifes major steps in notebook 
-- **Self Testing** - Unit Testing for each function
-- **Easily Configurable** - Easily modify with **config.INI** - keyname value pairs
-- **Includes Talking Code** - The code explains itself 
-- **Self Logging** - Enhanced python standard logging   
-- **Self Debugging** - Enhanced python standard debugging
-- **Low Code** - or - No Code  - Most solutions are under 50 lines of code
-- **Educational** - Includes educational dialogue and background material
+- ✅ **Self Documenting** Automatically identifies and annotates major steps in a notebook, making the codebase readable and well structured.
+- ✅ **Self Testing** Includes built in **unit tests** for each function to validate logic and ensure code reliability.
+- ✅ **Easily Configurable** Uses a simple **config.ini** file for centralized settings and easy customization through key value pairs.
+- ✅ **Talking Code** explains itself through inline commentary, helping you understand both **what** it does and **why** it does it.
+- ✅ **Self Logging** extends Python’s standard **logging** module for **step by step runtime insights**.
+- ✅ **Self Debugging** Includes debugging hooks and detailed error tracing to simplify development and troubleshooting.
+- ✅ **Low Code or  No Code** Designed to minimize complexity — most full solutions are under 50 lines of code.
+- ✅ **Educational** Each template includes educational narrative and background context to support learning, teaching, and collaborative development.
 
     
 ## List of Figures
