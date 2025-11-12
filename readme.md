@@ -4,11 +4,7 @@
 
 ## Perform database discovery on ANY database to generate the Schema and Data Discription Language.
 
-    
-![Solution](code.png)
-
-    
-
+    ![Image image_filename](code.png)
 ## DB_Discovery Software Module
 
 The DB_Discovery module is designed to explore previously unknown relational databases and automatically discover 
@@ -47,7 +43,7 @@ Assists in data quality assessment and potential use case identification.
 
 
 
-Welcome to the solution **Db Discovery** - an example for your projects
+Welcome to the solution **Db Discovery** 
 
 Perform database discovery on ANY database to generate the Schema and Data Discription Language.
 
@@ -90,13 +86,7 @@ Assists in data quality assessment and potential use case identification.
 
 
 <br>
-
-![Solution](code.png)
-
-    
-![Solution](code.png)
-
-    
+![Image image_filename](code.png)![Image image_filename](sample.png)
 ## Getting Started
 
 The goal of this solution is to **Jump Start** your development and have you up and running in 30 minutes. 
